@@ -13,7 +13,7 @@ public class GreetingTest {
 		System.setOut(new PrintStream(out));
 
 		// make a greeting
-		Greeting g = new Greeting("Hello");
+		Greeting g = new Greeting("Hans");
 		g.greet();
 
 		// verify that it happened
